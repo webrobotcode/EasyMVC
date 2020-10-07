@@ -10,10 +10,15 @@ namespace EasyMVC\Core;
 class Application
 {
     /**
+     * Variables
+     */
+    public Router $router;
+
+    /**
      * Construct method
      */
     public function __construct()
     {
-        echo "I'm Application";
+        $this->router = new Router();
     }
 }
