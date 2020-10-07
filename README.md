@@ -4,4 +4,6 @@ Easymvc is a php MVC framework. It's similar to most popular framework Laravel. 
 # Installation
 Step 1:
 Update composer.json file. This will genarate the vendor folder. 
+<pre>
 <code>Composer update</code>
+</pre>
