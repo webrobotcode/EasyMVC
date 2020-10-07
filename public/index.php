@@ -22,4 +22,4 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use EasyMVC\Core\Application;
 
 $app = new Application();
-$app->router->run();
+$app->router->get('/', function(){ return "Hello World"; });
