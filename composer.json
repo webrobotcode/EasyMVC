@@ -1,0 +1,15 @@
+{
+    "name": "sakib/easymvc",
+    "authors": [
+        {
+            "name": "Sakib Hasan",
+            "email": "mdaynulhuq6@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EasyMVC\\": "./"
+        }
+    },
+    "require": {}
+}
