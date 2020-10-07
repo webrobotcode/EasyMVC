@@ -10,10 +10,15 @@ namespace EasyMVC\Core;
 class Router
 {
     /**
-     * Run Method
+     * Variables
      */
-    public function run()
+    protected $routes = [];
+
+    /**
+     * Get method
+     */
+    public function get($path, $callback)
     {
-        echo "Hello Run";
+        $this->routes['GET'][$path] = $callback ?? '/';
     }
 }
