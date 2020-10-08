@@ -21,4 +21,12 @@ class Application
     {
         $this->router = new Router();
     }
+
+    /**
+     * Run Method
+     */
+    public function run()
+    {
+        $this->router->resolve();
+    }
 }
